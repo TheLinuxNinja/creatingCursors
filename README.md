@@ -1,13 +1,20 @@
-##### 1. [PNGs](#pngs)
-##### 2. [xcursorgen](#xcursorgen)
-##### 3. [THE FUN](#the-fun)
-##### 4. [How I do it](#how-i-do-it)
-##### 5. [Porting from Windows](#porting-from-windows)
-##### 6. [Check current cursor in use](#check-current-cursor-in-use)
-##### 7. [SVGs](#svgs)
-##### 8. [Special Thanks](#special-thanks)
+##### 1. [Software](#software)
+##### 2. [PNGs](#pngs)
+##### 3. [xcursorgen](#xcursorgen)
+##### 4. [THE FUN](#the-fun)
+##### 5. [How I do it](#how-i-do-it)
+##### 6. [Porting from Windows](#porting-from-windows)
+##### 7. [Check current cursor in use](#check-current-cursor-in-use)
+##### 8. [SVGs](#svgs)
+##### 9. [Special Thanks](#special-thanks)
 
 ---
+<a name="software"></a>
+## Software
+`imagemagick` for converting images to different sizes
+
+`xcursorgen` for creating **Xcursor** files 
+
 <a name="pngs"></a>
 ##  PNGs
 
