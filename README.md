@@ -92,7 +92,8 @@ To convert them to PNG put files into `convertWindows/inputs` folder and run `co
 Software has some bugs, but works fine. 
 
 Converting with `imagemagick` doesn't work, at least for me.
-<a name="check-current-cursor-in-use"></a>"
+
+<a name="check-current-cursor-in-use"></a>
 ## Check current cursor in use
 If you find that cursor fallbacks to default theme, instead of using your own, you might use `localeMouse` software to get names of missing cursors, so you can symlink them (or draw). 
 
