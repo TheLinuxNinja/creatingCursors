@@ -4,7 +4,8 @@
 ##### 4. [How I do it](#how-i-do-it)
 ##### 5. [Porting from Windows](#porting-from-windows)
 ##### 6. [Check current cursor in use](#check-current-cursor-in-use)
-##### 7. [Special Thanks](#special-thanks)
+##### 7. [SVGs](#svgs)
+##### 8. [Special Thanks](#special-thanks)
 
 ---
 <a name="pngs"></a>
