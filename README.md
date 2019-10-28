@@ -70,7 +70,7 @@ Now you have to create symbolic links, because there is absolutely no consistenc
 
 `ln -sf default arrow`
 
-All of them can be found here: https://git.auteiy.me/dmitry/cursorsPosy/blob/master/Black/cursorList
+All of them can be found here: [cursorlist](https://git.auteiy.me/dmitry/cursorsPosy/blob/master/Black/cursorList)
 
 Left column contains cursors that don't exist and have to be symlinked.
 
