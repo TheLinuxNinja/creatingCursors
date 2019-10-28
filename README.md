@@ -87,7 +87,7 @@ You'll have to open `mouseLang.pro` in `qtcreator` and build it yourself. Then r
 ## SVGs
 
 If you have your cursors in SVG format, then you might want to check [Capitaine Cursors](https://github.com/keeferrourke/capitaine-cursors) theme, since it uses SVGs files to convert from. 
-<a name="special-thanks"></a>"
+<a name="special-thanks"></a>
 ### Special Thanks
 
 ##### To [Keefer Rourke](https://github.com/keeferrourke) for his [Capitaine Cursors](https://github.com/keeferrourke/capitaine-cursors) theme, from which I took scripts whole repository structure.
