@@ -79,7 +79,7 @@ Left column contains cursors that don't exist and have to be symlinked.
 
 1. I convert PNGs using `convertPNGs/convertsize.sh` script. It will convert .png pictures to four resolutions (**32x32**, **40x40**, **48x48** and **64x64**) and put them into folders: **x1**, **x1_25**, **x1_5** and **x2** respectively. 
 2. Then I take cursors from folder **x_2** only and put them in corresponding folders for my theme: **Black**, **White**, **Black** and **BlackTiny**.
-3. Then I run `create.sh` script, that converts PNGs from **x2** folder to different sizes mentioned above and puts them in folders corresponding to dimensions, then it creates **xcursor** files using `xcursorgen`, and then it creates symbolic links from `cursorList` file.
+3. Then I run `create.sh` script (can be found [here](https://git.auteiy.me/dmitry/cursorsPosy/blob/master/create.sh)), that converts PNGs from **x2** folder to different sizes mentioned above and puts them in folders corresponding to dimensions, then it creates **xcursor** files using `xcursorgen`, and then it creates symbolic links from `cursorList` file.
 4. Done
 
 <a name="porting-from-windows"></a>
