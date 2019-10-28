@@ -40,11 +40,11 @@ Then you need to write config file for `xcursorgen`.
 48 8 8 x2/default.png
 ```
 
-1st column: Sizes of the cursor
+1st column: Sizes of the cursor.
 
 2nd and 3rd columns: For **default** cursor it will be coordinates for the pointy end, for **pointer** (hand with finger) it will be coordinates of the end of the finger, etc. 
 
-4th column: Path to images with corresponding sizes 
+4th column: Path to images with corresponding sizes.
 
 ##### Then you execute these commands for every config:
 
@@ -63,7 +63,7 @@ Now you have to create symbolic links, because there is absolutely no consistenc
 
 All of them can be found here: https://git.auteiy.me/dmitry/cursorsPosy/blob/master/Black/cursorList
 
-Left column contains cursors that doesn't exist and have to symlinked.
+Left column contains cursors that doesn't exist and have to be symlinked.
 
 <a name="how-i-do-it"></a>
 ## How I do it
