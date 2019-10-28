@@ -51,7 +51,7 @@ Then you need to write config file for `xcursorgen`.
 
 1st column: Sizes of the cursor.
 
-2nd and 3rd columns: For **default** cursor it will be coordinates for the pointy end, for **pointer** (hand with finger) it will be coordinates of the end of the finger, etc. 
+2nd and 3rd columns: For **default** cursor it will be coordinates of pointy end, for **pointer** (hand with finger) it will be coordinates of the end of the finger, etc. 
 
 4th column: Path to images with corresponding sizes.
 
@@ -72,14 +72,14 @@ Now you have to create symbolic links, because there is absolutely no consistenc
 
 All of them can be found here: https://git.auteiy.me/dmitry/cursorsPosy/blob/master/Black/cursorList
 
-Left column contains cursors that doesn't exist and have to be symlinked.
+Left column contains cursors that don't exist and have to be symlinked.
 
 <a name="how-i-do-it"></a>
 ## How I do it
 
 1. I convert PNGs using `convertPNGs/convertsize.sh` script. It will convert .png pictures to four resolutions (**32x32**, **40x40**, **48x48** and **64x64**) and put them into folders: **x1**, **x1_25**, **x1_5** and **x2** respectively. 
-2. Then I take cursors only from folder **x_2** and put them in corresponding folders for my theme: **Black**, **White**, **Black** and **BlackTiny**.
-3. Then I run `create.sh` script, that converts PNGs from **x2** folder to different sizes mentioned above and puts them in folders corresponding with their dimensions, then it creates **xcursor** files using `xcursorgen`, and then it creates symbolic links from `cursorList` file.
+2. Then I take cursors from folder **x_2** only and put them in corresponding folders for my theme: **Black**, **White**, **Black** and **BlackTiny**.
+3. Then I run `create.sh` script, that converts PNGs from **x2** folder to different sizes mentioned above and puts them in folders corresponding to dimensions, then it creates **xcursor** files using `xcursorgen`, and then it creates symbolic links from `cursorList` file.
 4. Done
 
 <a name="porting-from-windows"></a>
@@ -94,7 +94,7 @@ Software has some bugs, but works fine.
 Converting with `imagemagick` doesn't work, at least for me.
 <a name="check-current-cursor-in-use"></a>"
 ## Check current cursor in use
-If you fint that cursor fallbacks to default theme, instead of using your own, you might use `localeMouse` software to get names of missing cursors, so you can symlink then (or draw). 
+If you find that cursor fallbacks to default theme, instead of using your own, you might use `localeMouse` software to get names of missing cursors, so you can symlink them (or draw). 
 
 You'll have to open `mouseLang.pro` in `qtcreator` and build it yourself. Then run newly compiled file and trigger cursor's fallback. 
 
