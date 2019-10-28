@@ -97,7 +97,7 @@ If you have your cursors in SVG format, then you might want to check [Capitaine 
 <a name="special-thanks"></a>
 ### Special Thanks
 
-##### To [Keefer Rourke](https://github.com/keeferrourke) for his [Capitaine Cursors](https://github.com/keeferrourke/capitaine-cursors) theme, from which I took scripts whole repository structure.
+##### To [Keefer Rourke](https://github.com/keeferrourke) for his [Capitaine Cursors](https://github.com/keeferrourke/capitaine-cursors) theme, from which I took scripts and whole repository structure.
 
 ##### To [Patrick Gordon](https://github.com/paddygord) for creating [ani2ico](https://github.com/paddygord/cursor-converter/) converter from Windows's formats 
 
