@@ -28,7 +28,7 @@ You can do it with `imagemagick`:
 
 `convert default.png -resize 48x48 x1_5/default.png`
 
-`convert default.png -resize 64x64 x1_5/default.png`
+`convert default.png -resize 64x64 x2/default.png`
 
 
 It will convert .png pictures to four resolutions (**32x32**, **40x40**, **48x48** and **64x64**) and put them into folders: **x1**, **x1_25**, **x1_5** and **x2** respectively.
