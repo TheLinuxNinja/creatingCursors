@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/ru.png</file>
+        <file>res/en.png</file>
+        <file>res/ua.png</file>
+        <file>res/uk.png</file>
+        <file>res/us.png</file>
+        <file>res/empty.png</file>
+        <file>res/by.png</file>
+    </qresource>
+</RCC>
