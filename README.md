@@ -99,6 +99,6 @@ If you have your cursors in SVG format, then you might want to check [Capitaine 
 
 ##### To [Keefer Rourke](https://github.com/keeferrourke) for his [Capitaine Cursors](https://github.com/keeferrourke/capitaine-cursors) theme, from which I took scripts whole repository structure.
 
-##### To [Patrick Gordon](https://github.com/paddygord) for creating [ani2 ico converter](https://github.com/paddygord/cursor-converter/) from Windows's formats 
+##### To [Patrick Gordon](https://github.com/paddygord) for creating [ani2ico](https://github.com/paddygord/cursor-converter/) converter from Windows's formats 
 
 ##### To FisHlaBsoMAN for creating [localemouse](https://bitbucket.org/group-of-coders/localemouse/src/master/) software that check current cursor in use. 
